@@ -1,0 +1,45 @@
+/* .name {
+  float: left;
+}
+
+.main-nav {
+  float: right;
+} */
+
+
+* {
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.name {
+  font-size: 1.25em;
+}
+
+.name,
+.main-nav {
+  text-align: center;
+  background: skyblue;
+  margin-top: 6px;
+  margin-bottom: 6px;
+}
+
+.name a,
+.main-nav a {
+  padding: 10px 15px;
+  text-align: center;
+  display: block;
+}
+
+.main-nav a {
+  font-size: .95em;
+  color: blue;
+  text-transform: uppercase;
+}
